@@ -6,7 +6,7 @@ body {
     color: #ffcc00;
 }
 
-/* Headings and Logo */
+/* headings and logo */
 
 h1, h2 {
     font-family: 'Comfortaa', 'sans-serif';
@@ -19,4 +19,35 @@ h1, h2 {
 #logo {
     float: left;
     font-size: 280%;
+    margin: 0;
+ }
+    
+
+/* navigation links */
+
+#navigation {
+    font-size: 110%;
+    letter-spacing: 4px;
+}
+
+
+#navigation li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+    line-height: 20px;
+    
+}
+
+#navigation a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#navigation a:hover {
+    border-bottom: 1px solid #ffcc00;
+}
+
+.active {
+    border-bottom: 1px solid #ffcc00;
 }
