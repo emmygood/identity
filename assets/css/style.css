@@ -22,6 +22,7 @@ h1, h2 {
     float: left;
     font-size: 280%;
     margin: 0;
+    padding: 4px;
     color: #ffdd00;
  }
     
@@ -37,6 +38,7 @@ h1, h2 {
 #navigation li {
     float: right;
     list-style-type: none;
+    padding: 6px;
     margin-right: 30px;
     line-height: 20px;
     color: #ffdd00;
@@ -55,3 +57,22 @@ h1, h2 {
 .active {
     border-bottom: 1px solid #ffdd00;
 }
+
+/* hero image */
+
+#hero-section {
+    height: 500px;
+    width: 100%;
+    overflow: hidden;
+    
+}
+
+
+#hero-image {
+    height: 500px;
+    width: 100%;
+    background: url('../images/hero-im.jpg') no-repeat center center;
+    background-size: cover;
+   
+}
+
