@@ -58,21 +58,42 @@ h1, h2 {
     border-bottom: 1px solid #ffdd00;
 }
 
-/* hero image */
+/* hero image and cover text*/
 
 #hero-section {
     height: 500px;
     width: 100%;
     overflow: hidden;
+    position: relative;
     
 }
+
+#cover-text, #cover-text h2 {
+    color: #ffdd00;
+
+}
+
 
 
 #hero-image {
     height: 500px;
-    width: 100%;
+    max-width: 100%;
     background: url('../images/hero-im.jpg') no-repeat center center;
     background-size: cover;
    
 }
 
+#cover-text {
+    font-size: 55%;
+    font-family: 'Comfortaa', 'sans-serif';
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    width: 250px;
+    height: 200px;
+    
+    padding-left: 10px;
+    background-color: rgba(62, 62, 55, 0.7);
+    bottom: 100px;
+    right: 150px;
+    position: absolute;
+}
