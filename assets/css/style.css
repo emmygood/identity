@@ -22,7 +22,7 @@ h1, h2 {
     float: left;
     font-size: 280%;
     margin: 0;
-    padding: 6px;
+    padding: 8px;
     color: #ffdd00;
     margin-left: 30px;
  }
@@ -39,7 +39,7 @@ h1, h2 {
 #navigation li {
     float: right;
     list-style-type: none;
-    padding: 6px;
+    padding: 12px;
     margin-right: 30px;
     line-height: 20px;
     color: #ffdd00;
@@ -134,3 +134,4 @@ h1, h2 {
     padding-left: 4%;
     padding-right: 0.4%;
 }
+
