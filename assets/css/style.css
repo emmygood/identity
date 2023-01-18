@@ -22,8 +22,9 @@ h1, h2 {
     float: left;
     font-size: 280%;
     margin: 0;
-    padding: 4px;
+    padding: 6px;
     color: #ffdd00;
+    margin-left: 30px;
  }
     
 
@@ -96,4 +97,40 @@ h1, h2 {
     bottom: 100px;
     right: 150px;
     position: absolute;
+}
+
+
+/*  about */
+
+#about {
+    height: 500px;
+    width: 100%;
+    color: #ffdd00;
+    background-color: #292924;
+
+}
+
+#about-img {
+    height: auto;
+    width: 44%;
+    max-width: 600%;
+    float: right;
+    padding-right: 4%;
+    padding-left: 0.4%;
+}
+
+#about h2 {
+    font-size: x-large;
+    text-align: center;
+    margin: 0;
+    line-height: 90px;
+}
+
+#about p {
+    font-size: large;
+    width: 44%;
+    float: left;
+    letter-spacing: 4px;
+    padding-left: 4%;
+    padding-right: 0.4%;
 }
