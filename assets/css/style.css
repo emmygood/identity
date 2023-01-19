@@ -1,15 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500&family=Lato:ital,wght@0,100;0,400;1,100&family=Rubik&display=swap');
 
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
 body {
     font-family: 'Rubik', 'sans-serif';
     font-weight: 400;
     background-color: #3e3e37;
     color: #ffdd00;
+
 }
 
 /* headings and logo */
 
-h1, h2 {
+h1,
+h2 {
     font-family: 'Comfortaa', 'sans-serif';
     text-transform: uppercase;
     letter-spacing: 4px;
@@ -25,8 +34,8 @@ h1, h2 {
     padding: 8px;
     color: #ffdd00;
     margin-left: 30px;
- }
-    
+}
+
 
 /* navigation links */
 
@@ -43,7 +52,7 @@ h1, h2 {
     margin-right: 30px;
     line-height: 20px;
     color: #ffdd00;
-    
+
 }
 
 #navigation a {
@@ -62,14 +71,16 @@ h1, h2 {
 /* hero image and cover text*/
 
 #hero-section {
-    height: 500px;
+
     width: 100%;
     overflow: hidden;
     position: relative;
-    
+    clear: both;
+
 }
 
-#cover-text, #cover-text h2 {
+#cover-text,
+#cover-text h2 {
     color: #ffdd00;
 
 }
@@ -81,7 +92,7 @@ h1, h2 {
     max-width: 100%;
     background: url('../images/hero-im.jpg') no-repeat center center;
     background-size: cover;
-   
+
 }
 
 #cover-text {
@@ -90,8 +101,8 @@ h1, h2 {
     text-transform: uppercase;
     letter-spacing: 4px;
     width: 250px;
-    height: 200px;
-    
+
+
     padding-left: 10px;
     background-color: rgba(62, 62, 55, 0.7);
     bottom: 100px;
@@ -103,20 +114,34 @@ h1, h2 {
 /*  about */
 
 #about {
-    height: 500px;
+
     width: 100%;
     color: #ffdd00;
-    background-color: #292924;
+    
 
 }
 
+#about-container {
+    display: flex;
+    flex-direction: column;
+    padding: 2em 0;
+}
+
+#about * {
+    background-color: #292924;
+}
+
 #about-img {
-    height: auto;
-    width: 44%;
-    max-width: 600%;
-    float: right;
-    padding-right: 4%;
-    padding-left: 0.4%;
+    /* height: auto; */
+    /* width: 44%; */
+    /* max-width: 600%; */
+    /* float: right; */
+    /* padding-right: 4%; */
+    /* padding-left: 0.4%; */
+    object-fit: cover;
+    margin: 2em auto;
+    max-height: 400px;
+    max-width: 100%;
 }
 
 #about h2 {
@@ -128,19 +153,42 @@ h1, h2 {
 
 #about p {
     font-size: large;
-    width: 44%;
-    float: left;
+    /* width: 44%; */
+    /* float: left; */
     letter-spacing: 4px;
-    padding-left: 4%;
-    padding-right: 0.4%;
+    /* padding-left: 4%; */
+    /* padding-right: 0.4%; */
+    padding: 0 2em;
 }
 
 /* opening times and services */
 
 #times-services {
-    position: relative;
+    /* position: relative; */
+    /* clear: both; */
 }
 
-#times {
-    
+#times {}
+
+
+@media (min-width: 750px) {
+    #about-img {
+        max-width: 75%;
+    }
+}
+
+
+@media (min-width: 950px) {
+    #about-container {
+        flex-direction: row;
+        margin: 0 auto;
+    }
+
+    #about p {
+        max-width: 40%;
+    }
+
+    #about-img {
+        max-width: 40%;
+    }
 }
