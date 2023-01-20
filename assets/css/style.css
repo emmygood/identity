@@ -161,14 +161,10 @@ h2 {
     padding: 0 2em;
 }
 
-/* opening times and services */
-
-#times-services {
+/*#times-services {
     /* position: relative; */
     /* clear: both; */
-}
 
-#times {}
 
 
 @media (min-width: 750px) {
@@ -192,3 +188,54 @@ h2 {
         max-width: 40%;
     }
 }
+
+/* times and service prices */
+
+
+#times {
+    background: url('../images/times.jpg') no-repeat center center;
+    background-size: cover;
+    text-align: center;
+    
+    width: 50%;
+    justify-content: flex-end;
+}
+
+
+#times table {
+    display: inline;
+}
+
+#times h2 {
+    margin-top: 0;
+    line-height: 2em;
+    font-size: large;
+    text-decoration: underline;
+}
+
+#times td {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+#prices {
+    
+    text-align: center;
+    font-size: medium;
+    width: 50%;
+    
+    
+}
+
+#prices h2 {
+    margin-top: 0;
+    line-height: 2em;
+    font-size: large;
+    text-decoration: underline;
+}
+
+#prices h3 {
+    display: block;
+}
+
