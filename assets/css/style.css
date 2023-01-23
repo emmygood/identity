@@ -231,6 +231,7 @@ h2 {
     width: 50%;
     height: 360px;
     position: relative;
+    clear: both;
     left: 50%;
     bottom: 350px;
     
