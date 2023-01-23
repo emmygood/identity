@@ -191,14 +191,18 @@ h2 {
 
 /* times and service prices */
 
+#times-services {
+    position: relative;
+    clear: both;
+}
 
 #times {
     background: url('../images/times.jpg') no-repeat center center;
     background-size: cover;
     text-align: center;
-    
+    height: 360px;
     width: 50%;
-    justify-content: flex-end;
+    
 }
 
 
@@ -208,34 +212,43 @@ h2 {
 
 #times h2 {
     margin-top: 0;
+    padding: 20px;
     line-height: 2em;
     font-size: large;
     text-decoration: underline;
 }
 
 #times td {
-    display: inline-block;
+    padding: 15px;
     font-weight: bold;
     font-size: 2em;
 }
 
 #prices {
-    
     text-align: center;
     font-size: medium;
     width: 50%;
+    height: 360px;
+    position: relative;
+    left: 50%;
+    bottom: 350px;
+    
+    padding: 10px;
     
     
-}
-
-#prices h2 {
-    margin-top: 0;
-    line-height: 2em;
-    font-size: large;
-    text-decoration: underline;
 }
 
 #prices h3 {
-    display: block;
+    font-size: 2em;
+    padding-top: 10px;
 }
+
+
+#prices h2 {
+    margin-top: 5px;
+    line-height: 2em;
+    font-size: 100%;
+    text-decoration: underline;
+}
+
 
