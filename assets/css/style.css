@@ -191,6 +191,55 @@ h2 {
 
 /* times and service prices */
 
+
+#times-container {
+    display: flex;
+    flex-direction: row;
+    /*padding: 2em 0;*/
+    
+}
+
+
+@media (min-width: 950px) {
+    #times-services {
+       
+        flex-direction: row;
+        margin: 0 auto;
+    }
+
+    #times {
+        max-width: 50%;
+    }
+
+    #prices {
+        max-width: 50%;
+    }
+
+
+}
+
+
+
+@media (min-width: 950dpx) {
+    #times-container div {
+        flex-direction: row;
+        margin: 0 auto;
+        width: 100%;
+    }
+    }
+
+    @media (min-width: 950px) {
+        #prices {
+          /*float: left;*/
+          width: 100%;
+        }
+      }
+
+
+ 
+
+/* ?? */
+
 #times-services {
     position: relative;
     clear: both;
@@ -202,6 +251,7 @@ h2 {
     text-align: center;
     height: 360px;
     width: 50%;
+    
     
 }
 
@@ -232,12 +282,7 @@ h2 {
     height: 360px;
     position: relative;
     clear: both;
-    left: 50%;
-    bottom: 350px;
-    
-    padding: 10px;
-    
-    
+        
 }
 
 #prices h3 {
@@ -256,3 +301,30 @@ h2 {
 }
 
 
+/* address section */
+
+#address {
+    background-color: #292924;
+    height: 250px;
+    width: 100%;
+    color: #ffdd00;
+    text-align: center;
+    margin: 0;
+    
+    
+}
+
+#address h2 {
+    font-size: 1em;
+    text-decoration: underline;
+    padding: 30px 30px;
+    font-weight: 400;
+    
+}
+
+#address h3 {
+    font-weight: 400;
+    letter-spacing: 4px;
+    font-size: 2em;
+
+}
