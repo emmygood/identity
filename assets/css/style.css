@@ -194,7 +194,8 @@ h2 {
 
 #times-container {
     display: flex;
-    flex-direction: row;
+   /* flex-direction: column;*/
+    min-width: 950px;
     /*padding: 2em 0;*/
     
 }
@@ -202,8 +203,8 @@ h2 {
 
 @media (min-width: 950px) {
     #times-services {
-       
-        flex-direction: row;
+        display: flex;
+        flex-direction: column;
         margin: 0 auto;
     }
 
@@ -218,32 +219,10 @@ h2 {
 
 }
 
-
-
-@media (min-width: 950dpx) {
-    #times-container div {
-        flex-direction: row;
-        margin: 0 auto;
-        width: 100%;
-    }
-    }
-
-    @media (min-width: 950px) {
-        #prices {
-          /*float: left;*/
-          width: 100%;
-        }
-      }
-
-
- 
-
-/* ?? */
-
-#times-services {
+/*#times-services {
     position: relative;
     clear: both;
-}
+}*/
 
 #times {
     background: url('../images/times.jpg') no-repeat center center;
