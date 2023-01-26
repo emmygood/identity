@@ -320,7 +320,8 @@ footer {
 footer li {
     padding: 1%;
     display: inline;
-    padding-left: 60px;
+    padding: 0 80px;
+    
 }
 
 footer ul {
@@ -332,4 +333,8 @@ footer ul {
 footer i {
     color: #ffdd00;
     font-size: 150%;
+}
+
+footer p {
+    margin: 20px;
 }
