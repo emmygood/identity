@@ -307,3 +307,29 @@ h2 {
     font-size: 2em;
 
 }
+
+/* footer with social links */
+
+footer {
+    height: 120px;
+    width: 100%;
+    text-align: center;
+    
+}
+
+footer li {
+    padding: 1%;
+    display: inline;
+    padding-left: 60px;
+}
+
+footer ul {
+    padding-top: 30px;
+    margin: 0;
+    
+}
+
+footer i {
+    color: #ffdd00;
+    font-size: 150%;
+}
