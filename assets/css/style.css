@@ -48,7 +48,7 @@ h2 {
 #navigation li {
     float: right;
     list-style-type: none;
-    padding: 25px;
+    padding: 15px;
     margin-right: 30px;
     line-height: 20px;
     color: #ffdd00;
@@ -201,7 +201,7 @@ h2 {
 }
 
 
-@media (min-width: 950px) {
+@media screen and (max-width: 1200px) {
     #times-services {
         display: flex;
         flex-direction: column;
@@ -209,15 +209,22 @@ h2 {
     }
 
     #times {
-        max-width: 50%;
+        max-width: 65%;
+        height: 1200px;
     }
 
     #prices {
-        max-width: 50%;
+        max-width: 65%;
+        
+        
+        
     }
 
 
 }
+
+
+
 
 /*#times-services {
     position: relative;
@@ -353,8 +360,4 @@ footer p {
 #gallery > img {
     width: 100%;
 }
-
-
-
-
 
