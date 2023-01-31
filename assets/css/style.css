@@ -24,6 +24,11 @@ body > footer {
 
 /* headings and logo */
 
+header {
+    display: flex;
+    flex-direction: column;
+}
+
 h1,
 h2 {
     font-family: 'Comfortaa', 'sans-serif';
@@ -31,7 +36,6 @@ h2 {
     letter-spacing: 4px;
     color: #ffdd00;
     font-size: 400%;
-
 }
 
 #logo {
@@ -51,13 +55,16 @@ h2 {
     letter-spacing: 4px;
 }
 
+#navigation ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
 #navigation li {
-    float: right;
     list-style-type: none;
-    padding: 15px;
-    margin-right: 30px;
     line-height: 20px;
     color: #ffdd00;
+    margin: 1em auto
 }
 
 #navigation a {
@@ -306,6 +313,15 @@ footer p {
 
 
 @media (min-width: 750px) {
+    header {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    #navigation li {
+        margin: 2em 1em;
+    }
+
     #about-img {
         max-width: 75%;
     }
