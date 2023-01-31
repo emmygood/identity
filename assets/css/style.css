@@ -361,3 +361,12 @@ footer p {
     width: 100%;
 }
 
+
+/* booking form */
+
+#booking {
+    clear: both;
+    background: url('../images/booking.jpg') no-repeat center;
+    background-size: cover;
+    height: 900px;
+}
