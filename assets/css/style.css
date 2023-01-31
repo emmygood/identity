@@ -6,13 +6,20 @@
     padding: 0;
 }
 
+html, body {
+    height: 100%;
+}
 
 body {
     font-family: 'Rubik', 'sans-serif';
     font-weight: 400;
     background-color: #3e3e37;
     color: #ffdd00;
+}
 
+body > footer {
+    position: sticky;
+    top: 100vh;
 }
 
 /* headings and logo */
@@ -44,7 +51,6 @@ h2 {
     letter-spacing: 4px;
 }
 
-
 #navigation li {
     float: right;
     list-style-type: none;
@@ -52,7 +58,6 @@ h2 {
     margin-right: 30px;
     line-height: 20px;
     color: #ffdd00;
-
 }
 
 #navigation a {
@@ -71,28 +76,22 @@ h2 {
 /* hero image and cover text*/
 
 #hero-section {
-
     width: 100%;
     overflow: hidden;
     position: relative;
     clear: both;
-
 }
 
 #cover-text,
 #cover-text h2 {
     color: #ffdd00;
-
 }
-
-
 
 #hero-image {
     height: 500px;
     max-width: 100%;
     background: url('../images/hero-im.jpg') no-repeat center center;
     background-size: cover;
-
 }
 
 #cover-text {
@@ -101,8 +100,6 @@ h2 {
     text-transform: uppercase;
     letter-spacing: 4px;
     width: 250px;
-
-
     padding-left: 10px;
     background-color: rgba(62, 62, 55, 0.7);
     bottom: 100px;
@@ -114,11 +111,8 @@ h2 {
 /*  about */
 
 #about {
-
     width: 100%;
     color: #ffdd00;
-    
-
 }
 
 #about-container {
@@ -132,12 +126,6 @@ h2 {
 }
 
 #about-img {
-    /* height: auto; */
-    /* width: 44%; */
-    /* max-width: 600%; */
-    /* float: right; */
-    /* padding-right: 4%; */
-    /* padding-left: 0.4%; */
     object-fit: cover;
     margin: 2em auto;
     max-height: 400px;
@@ -153,92 +141,22 @@ h2 {
 
 #about p {
     font-size: large;
-    /* width: 44%; */
-    /* float: left; */
     letter-spacing: 4px;
-    /* padding-left: 4%; */
-    /* padding-right: 0.4%; */
     padding: 0 2em;
 }
 
-/*#times-services {
-    /* position: relative; */
-    /* clear: both; */
-
-
-
-@media (min-width: 750px) {
-    #about-img {
-        max-width: 75%;
-    }
-}
-
-
-@media (min-width: 950px) {
-    #about-container {
-        flex-direction: row;
-        margin: 0 auto;
-    }
-
-    #about p {
-        max-width: 40%;
-    }
-
-    #about-img {
-        max-width: 40%;
-    }
-}
-
-/* times and service prices */
-
-
-#times-container {
+#times-services {
     display: flex;
-   /* flex-direction: column;*/
-    min-width: 950px;
-    /*padding: 2em 0;*/
-    
+    flex-direction: column;
+    width: 100%;
 }
 
-
-@media screen and (max-width: 1200px) {
-    #times-services {
-        display: flex;
-        flex-direction: column;
-        margin: 0 auto;
-    }
-
-    #times {
-        max-width: 65%;
-        height: 1200px;
-    }
-
-    #prices {
-        max-width: 65%;
-        
-        
-        
-    }
-
-
-}
-
-
-
-
-/*#times-services {
-    position: relative;
-    clear: both;
-}*/
 
 #times {
+    padding: 3em 0;
     background: url('../images/times.jpg') no-repeat center center;
     background-size: cover;
     text-align: center;
-    height: 360px;
-    width: 50%;
-    
-    
 }
 
 
@@ -262,22 +180,17 @@ h2 {
 }
 
 #prices {
+    margin: 3em auto;
     text-align: center;
     font-size: medium;
-    width: 50%;
-    height: 360px;
-    position: relative;
-    clear: both;
-        
 }
 
 #prices h3 {
     font-size: 2em;
     padding-top: 10px;
     font-weight: 400;
-    
-}
 
+}
 
 #prices h2 {
     margin-top: 5px;
@@ -296,8 +209,6 @@ h2 {
     color: #ffdd00;
     text-align: center;
     margin: 0;
-    
-    
 }
 
 #address h2 {
@@ -305,14 +216,20 @@ h2 {
     text-decoration: underline;
     padding: 30px 30px;
     font-weight: 400;
-    
 }
 
 #address h3 {
     font-weight: 400;
     letter-spacing: 4px;
     font-size: 2em;
+}
 
+/* map */
+
+#map {
+    height: 300px;
+    width: 100%;
+    border: 0;
 }
 
 /* footer with social links */
@@ -321,20 +238,19 @@ footer {
     height: 120px;
     width: 100%;
     text-align: center;
-    
+
+}
+
+
+footer ul {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+    margin: 0;
 }
 
 footer li {
-    padding: 1%;
-    display: inline;
-    padding: 0 80px;
-    
-}
-
-footer ul {
-    padding-top: 30px;
-    margin: 0;
-    
+    list-style: none;
 }
 
 footer i {
@@ -350,14 +266,12 @@ footer p {
 
 #gallery {
     clear: both;
-    
     line-height: 0;
-    column-count: 4;
+    column-count: 1;
     column-gap: 0;
-
 }
 
-#gallery > img {
+#gallery>img {
     width: 100%;
 }
 
@@ -368,5 +282,77 @@ footer p {
     clear: both;
     background: url('../images/booking.jpg') no-repeat center;
     background-size: cover;
-    height: 900px;
+}
+
+#form {
+    background-color: rgba(0, 0, 0, 0.75);
+    height: 100%;
+    padding: 5em 0;
+}
+
+#form h2 {
+    text-align: center;
+    font-size: 5vw;
+    margin-bottom: 1em;
+}
+
+#form form {
+    display: flex;
+    flex-direction: column;
+    max-width: 85%;
+    margin: 0 auto;
+}
+
+
+
+@media (min-width: 750px) {
+    #about-img {
+        max-width: 75%;
+    }
+
+    #gallery {
+        column-count: 2;
+    }
+
+    #form form {
+        max-width: 65%;
+    }
+}
+
+
+@media (min-width: 950px) {
+    #about-container {
+        flex-direction: row;
+        margin: 0 auto;
+    }
+
+    #about p {
+        max-width: 40%;
+    }
+
+    #about-img {
+        max-width: 40%;
+    }
+
+    #times-services {
+        flex-direction: row;
+    }
+
+    #times, #prices {
+        width: 50%;
+    }
+
+    #gallery {
+        column-count: 3;
+    }
+
+    #form form {
+        max-width: 50%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    #gallery {
+        column-count: 4;
+    }
 }
