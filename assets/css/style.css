@@ -159,16 +159,21 @@ h2 {
 }
 
 
+/* times and service prices */
+
 #times {
     padding: 3em 0;
     background: url('../images/times.jpg') no-repeat center center;
     background-size: cover;
     text-align: center;
+    
+    
 }
 
 
 #times table {
     display: inline;
+
 }
 
 #times h2 {
@@ -344,12 +349,14 @@ footer p {
     height: 30px;
     font-family: 'Rubik', sans-serif;
     border-radius: 10px;
+    font-weight: bold;
     
     
 }
 
 .submit-button:hover {
     background-color: #ffeb66;
+    
 }
 
 
