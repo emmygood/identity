@@ -35,7 +35,7 @@ I used [coolors.co](https://coolors.co/292924-3e3e37-ffdd00-ffeb66) to generate 
 #### Navigation Bar
 - The navigation bar is common across all pages. Including 'Home', 'Gallery', and 'Booking'. These links are in convention with the logo, which situates itself on the left and the navigation links to the right. These then become responsive depending on the users screen size.
 - The three links are easily accessible on all pages, to browse the site with ease.
-- The Logo is a clickable link, providing a shortcut which will take the user back to the homepage if needed.
+- The Logo - which includes a font awesome icon - is a clickable link, providing a shortcut which will take the user back to the homepage if needed.
 - To let the user know visually what page they are currently on, a line appears underneath the text, as well as when they hover over it. The color of this is in keeping with the color of the text.
 
 
