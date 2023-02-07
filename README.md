@@ -54,3 +54,32 @@ I used [coolors.co](https://coolors.co/292924-3e3e37-ffdd00-ffeb66) to generate 
 - The lower part of the footer contains the copywrite information.
 
 ![screenshot](documentation/footer2.png)
+
+### Salon Ethos
+- At the top of this section is when the salon was established.
+- In the salon ethos section this describes the main ethos of the salon in more depth. Providing the user with information as to whether they would be interested in visiting. This is situated on the left.
+- Next to the text, is a photo of inside the salon, providing more information to the user.
+- This section's background color is #292924; the darker of the grey. Which helps break up the sections.
+
+![screenshot](documentation/about.png)
+
+### Opening times and service prices
+- This section is split into two halves; on the left you have the opening times, and on the right you have the service prices.
+- By using a background image behind opening times, this helps to create a divide between the two sections.
+- These are shown on the homepage in order for the user to have immediate access to what the salon offers.
+
+![screenshot](documentation/openingprices.png)
+
+### Address and Google Map
+- This contains the salon address, with the Google Maps location underneath.
+- This is on the homepage as it is one of the first things the user would be looking for.
+
+![screenshot](documentation/address.png)
+
+### Gallery Feature
+- The gallery page offers users to view past work through these professional photos as well as in salon.
+- This is in the format of a masonary gallery, so the user can see more than one photo without having to scroll too far down the page.
+- This allows the user to see what is in offer at the salon.
+
+![screenshot](documentation/gallery3.png)
+![screenshot](documentation/gallery4.png)
