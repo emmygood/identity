@@ -55,7 +55,7 @@ I used [coolors.co](https://coolors.co/292924-3e3e37-ffdd00-ffeb66) to generate 
 
 ![screenshot](documentation/footer2.png)
 
-### Salon Ethos
+### Salon Ethos Feature
 - At the top of this section is when the salon was established.
 - In the salon ethos section this describes the main ethos of the salon in more depth. Providing the user with information as to whether they would be interested in visiting. This is situated on the left.
 - Next to the text, is a photo of inside the salon, providing more information to the user.
@@ -80,6 +80,9 @@ I used [coolors.co](https://coolors.co/292924-3e3e37-ffdd00-ffeb66) to generate 
 - The gallery page offers users to view past work through these professional photos as well as in salon.
 - This is in the format of a masonary gallery, so the user can see more than one photo without having to scroll too far down the page.
 - This allows the user to see what is in offer at the salon.
+- These images will display one at a time in a column when the user is using a phone.
 
 ![screenshot](documentation/gallery3.png)
 ![screenshot](documentation/gallery4.png)
+
+### Booking form
