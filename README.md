@@ -86,3 +86,33 @@ I used [coolors.co](https://coolors.co/292924-3e3e37-ffdd00-ffeb66) to generate 
 ![screenshot](documentation/gallery4.png)
 
 ### Booking form
+- The booking page provides a phone number as alternative contact.
+- The booking form asks users to follow easy to understand steps.
+- Each input box highlights a different color - #FFEB66; to indicate what box they are clicking on.
+- The user is asked for their: name, phone number, email address, date and what service.
+- There are two radio buttons asking if they've been their before.
+
+![screenshot](documentation/booking.png)
+![screenshot](documentation/booking2.png)
+
+### Future Features
+- New feature #1
+  - More photos added to the gallery.
+
+- New feature #2
+  - A page where users can virtually shop for hair care products.
+
+- New feature #3
+  - When booking in, for there to be a option to sign up for a monthly newsletter with offers on services and prodcuts.
+
+## Tools and Technologies used
+
+- [HTML](https://en.wikipedia.org/wiki/HTML) used for the main site content.
+- [CSS](https://en.wikipedia.org/wiki/CSS) used for the site design as well as layout.
+- [CSS-Flexbox](https://www.w3schools.com/css/css3_flexbox.asp) used to enhance the responsive layout.
+- [CSS-Color-Converter](https://www.w3schools.com/colors/colors_converter.asp) used for the site design colors.
+- [Git](https://git-scm.com) used for version control. (`git add`, `git commit`, `git push`)
+- [GitHub](https://github.com) used for secure online code storage.
+- [GitHub Pages](https://pages.github.com) used for hosting the deployed front-end site.
+- [Markdown Builder by Tim Nelson](https://traveltimn.github.io/readme-builder) used to help generate the Markdown files.
+
