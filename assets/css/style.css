@@ -339,7 +339,10 @@ footer p {
     margin-top: 20px;
 }
 
-
+.buttons {
+    border-style: none;
+    padding: 10px;
+}
 
 .submit-button {
     display: block;

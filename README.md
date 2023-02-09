@@ -120,7 +120,7 @@ I used [coolors.co](https://coolors.co/292924-3e3e37-ffdd00-ffeb66) to generate 
 
 
 # Testing 
-
+I have tested the website on a variety of different browsers (Chrome, Firefox, Safari) and screen sizes (laptop, desktop, smartphones) the results of which are shown below. As well as testing the site with development tools, whilst building, to ensure the responsiveness across different screen sizes.
 
 ### HTML Validation
 
@@ -154,3 +154,7 @@ I have used the recommended [CSS Jigsaw Validator](https://jigsaw.w3.org/css-val
 Pass: No Errors [W3C](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Femmygood.github.io%2Fidentity%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
 ![screenshot](documentation/validation/css.png)
+---
+
+### Responsiveness
+
