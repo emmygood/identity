@@ -6,6 +6,7 @@
 ## Introduction
 Identity is a site about a London hair salon that caters to an LGBTQ+ audience. The site offers a friendly welcome to those who wish to be their authentic true selves in a safe and friendly environment without intimidation; which to most is paramount. The site showcases the styles it offers as well as the ease of choosing what service they which to receive, and easy to follow booking system. 
 
+
 ## UX
 ### Color Palette
 
@@ -116,5 +117,40 @@ I used [coolors.co](https://coolors.co/292924-3e3e37-ffdd00-ffeb66) to generate 
 - [GitHub Pages](https://pages.github.com) used for hosting the deployed front-end site.
 - [Markdown Builder by Tim Nelson](https://traveltimn.github.io/readme-builder) used to help generate the Markdown files.
 
-## Testing
 
+
+# Testing 
+
+
+### HTML Validation
+
+I have used the recommended [HTML W3C Validator](https://validator.w3.org) to validate all of my HTML files.
+
+
+
+* Home  - Pass: No Errors [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Femmygood.github.io%2Fidentity%2Findex.html)
+
+![screenshot](documentation/validation/hometest.png)
+
+
+* Gallery - Lack of headings h2-h6 [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Femmygood.github.io%2Fidentity%2Fgallery.html)
+
+Aware of this warning however this gallery section of this page does not need any headings as there are only images. This does not effect the final look of the site in the browsers.
+
+![screenshot](documentation/validation/gallerytest.png)
+---
+* Booking - Pass: No Errors  [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Femmygood.github.io%2Fidentity%2Fbooking.html)
+
+![screenshot](documentation/validation/bookingtest.png)
+
+
+
+### CSS
+---
+
+I have used the recommended [CSS Jigsaw Validator](https://jigsaw.w3.org/css-validator) to validate all of my CSS files.
+
+
+Pass: No Errors [W3C](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Femmygood.github.io%2Fidentity%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+
+![screenshot](documentation/validation/css.png)
