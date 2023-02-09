@@ -120,26 +120,26 @@ I used [coolors.co](https://coolors.co/292924-3e3e37-ffdd00-ffeb66) to generate 
 
 
 # Testing 
-I have tested the website on a variety of different browsers (Chrome, Firefox, Safari) and screen sizes (laptop, desktop, smartphones) the results of which are shown below. As well as testing the site with development tools, whilst building, to ensure the responsiveness across different screen sizes.
+I have tested the website on a variety of different browsers (Chrome, Firefox, Safari) and screen sizes (laptop, desktop, smartphones). As well as testing the site with development tools, whilst building, to ensure the responsiveness across different screen sizes.
 
 ### HTML Validation
 
-I have used the recommended [HTML W3C Validator](https://validator.w3.org) to validate all of my HTML files.
+- I have used the recommended [HTML W3C Validator](https://validator.w3.org) to validate all of my HTML files.
 
 
 
-* Home  - Pass: No Errors [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Femmygood.github.io%2Fidentity%2Findex.html)
+* Home  - Pass: No Errors [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Femmygood.github.io%2Fidentity%2Findex.html) - link here
 
 ![screenshot](documentation/validation/hometest.png)
 
 
-* Gallery - Lack of headings h2-h6 [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Femmygood.github.io%2Fidentity%2Fgallery.html)
+* Gallery - Lack of headings h2-h6 [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Femmygood.github.io%2Fidentity%2Fgallery.html) - link here
 
-Aware of this warning however this gallery section of this page does not need any headings as there are only images. This does not effect the final look of the site in the browsers.
+I am aware of this warning, however this gallery section of this page does not need any headings as there are only images. This does not effect the final look of the site in the browsers.
 
 ![screenshot](documentation/validation/gallerytest.png)
 ---
-* Booking - Pass: No Errors  [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Femmygood.github.io%2Fidentity%2Fbooking.html)
+* Booking - Pass: No Errors  [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Femmygood.github.io%2Fidentity%2Fbooking.html) - link here
 
 ![screenshot](documentation/validation/bookingtest.png)
 
@@ -148,13 +148,47 @@ Aware of this warning however this gallery section of this page does not need an
 ### CSS
 ---
 
-I have used the recommended [CSS Jigsaw Validator](https://jigsaw.w3.org/css-validator) to validate all of my CSS files.
+- I have used the recommended [CSS Jigsaw Validator](https://jigsaw.w3.org/css-validator) to validate all of my CSS files.
 
 
-Pass: No Errors [W3C](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Femmygood.github.io%2Fidentity%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+Pass: No Errors [W3C](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Femmygood.github.io%2Fidentity%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en) - link here
 
 ![screenshot](documentation/validation/css.png)
 ---
 
-### Responsiveness
+
+---
+## Responsiveness
+
+
+- I have used the Wave Web Accessibility Evaluation Tool to make sure the site is accessible for all. 
+All pages passed with no errors. Here are the results below.
+
+  - Home page - [Wave-link](https://wave.webaim.org/report#/https://emmygood.github.io/identity/index.html)
+
+  - ![screenshot](documentation/validation/wavehome.png)
+
+  
+
+  - Gallery - [Wave-link](https://wave.webaim.org/report#/https://emmygood.github.io/identity/gallery.html)
+
+  - ![screenshot](documentation/validation/wavegall.png)
+
+
+
+  - Booking - [Wave-link](https://wave.webaim.org/report#/https://emmygood.github.io/identity/booking.html)
+
+  - ![screenshot](documentation/validation/wavebo.png)
+
+---
+
+
+- I tested the site on my smartphone (Samsung) and was very pleased all the features responded well to the smaller screen size. Here are the screenshots below.
+
+* ![screenshot](documentation/validation/phonehome2.jpg)
+
+* ![screenshot](documentation/validation/gall1.jpg)
+* ![screenshot](documentation/validation/gall2%20(1).jpg)
+
+* ![screenshot](documentation/validation/book.jpg)
 
