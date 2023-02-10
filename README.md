@@ -4,8 +4,45 @@
 [Live webpage](https://emmygood.github.io/identity/)
 
 ## Introduction
+
 Identity is a site about a London hair salon that caters to an LGBTQ+ audience. The site offers a friendly welcome to those who wish to be their authentic true selves in a safe and friendly environment without intimidation; which to most is paramount. The site showcases the styles it offers as well as the ease of choosing what service they which to receive, and easy to follow booking system. 
 
+---
+
+## User Experience
+
+### Audience 
+1. People looking for a safe, friendly environment to get their haircut.
+2. People looking for a place that caters to their needs.
+3. People looking for a salon that is current with the latest hair techniques.
+
+### Expectations
+1. Easily click through the site and gather all relevant information.
+2. Clear layout and presentation.
+3. Accessible for all.
+4. Easy way to book in or call the salon.
+5. Clickable links that function properly.
+6. Clear and easy to read content to read quickly.
+
+### First time user
+1. As a first time user, I want to know what the salon offers.
+2. I want to know where the store is located.
+3. I want to know the price of the services.
+4. I want to know the opening times.
+
+### Returning user
+1. As a returning user, I want to be able to book in easily.
+2. I want to find them on social media platforms.
+3. I want to be able to look at past work.
+4. I want to know directions to the salon.
+
+### Site owner
+1. As the site owner, I want users to gain an understanding of what the salon offers.
+2. I want people to be able to find us on social media.
+3. I want the users to know what services we offer.
+
+
+---
 
 ## UX
 ### Color Palette
@@ -21,7 +58,7 @@ I used [coolors.co](https://coolors.co/292924-3e3e37-ffdd00-ffeb66) to generate 
 ### Typography
 
 
-[GoogleFonts.com](https://fonts.google.com/?query=com) was imported to select all the fonts. With sans-serif as a fallback for both 'Comfortaa' and 'Rubik'. These two fonts are similar but pair together nicely.
+[GoogleFonts.com](https://fonts.google.com/?query=com) was imported to select all the fonts. With sans-serif as a fallback for both 'Comfortaa' and 'Rubik'. These two fonts are similar but pair together nicely. I wanted to opt for something simple and easy to read, for accessibility, but also choose something a little bit 'different'.
 
 - [Comfortaa] (https://fonts.google.com/specimen/Comfortaa?query=com) Was used for the primary headers and titles.
 
@@ -36,7 +73,8 @@ I used [coolors.co](https://coolors.co/292924-3e3e37-ffdd00-ffeb66) to generate 
 #### Navigation Bar
 - The navigation bar is common across all pages. Including 'Home', 'Gallery', and 'Booking'. These links are in convention with the logo, which situates itself on the left and the navigation links to the right. These then become responsive depending on the users screen size.
 - The three links are easily accessible on all pages, to browse the site with ease.
-- The Logo - which includes a font awesome icon - is a clickable link, providing a shortcut which will take the user back to the homepage if needed.
+- The Logo - which includes a font awesome icon - is a clickable link, providing a shortcut which will take the user back to the homepage if needed. 
+- The icon next to the logo helps the ser to gain a quick understanding of what the site is about.
 - To let the user know visually what page they are currently on, a line appears underneath the text, as well as when they hover over it. The color of this is in keeping with the color of the text.
 
 
@@ -162,28 +200,29 @@ Pass: No Errors [W3C](https://jigsaw.w3.org/css-validator/validator?uri=https%3A
 
 
 - I have used the Wave Web Accessibility Evaluation Tool to make sure the site is accessible for all. 
-All pages passed with no errors. Here are the results below.
+All pages passed with no errors. Here are the results below. [Link to all pages](https://wave.webaim.org/report#/https://emmygood.github.io/identity/index.html)
 
   - Home page - [Wave-link](https://wave.webaim.org/report#/https://emmygood.github.io/identity/index.html)
 
-  - ![screenshot](documentation/validation/wavehome.png)
+  ![screenshot](documentation/validation/wave.png)
 
   
 
   - Gallery - [Wave-link](https://wave.webaim.org/report#/https://emmygood.github.io/identity/gallery.html)
 
-  - ![screenshot](documentation/validation/wavegall.png)
+  ![screenshot](documentation/validation/wave2.png)
 
 
 
-  - Booking - [Wave-link](https://wave.webaim.org/report#/https://emmygood.github.io/identity/booking.html)
+  - Booking - [Wave-link](https://wave.webaim.org/report#/https://emmygood.github.io/identity/booking.html) 
+  For this page one of the alerts suggested the radio buttons were not in a fieldset element, so I then added that in.
 
-  - ![screenshot](documentation/validation/wavebo.png)
+  ![screenshot](documentation/validation/wave3.png)
 
 ---
 
 
-- I tested the site on my smartphone (Samsung) and was very pleased all the features responded well to the smaller screen size. Here are the screenshots below.
+- I tested the site on my smartphone (Samsung) and was very pleased all the features responded well to the smaller screen size. As a user I was able to easily click through all the pages and fill out the booking form with no problems. Here are the screenshots below. 
 
 * ![screenshot](documentation/validation/phonehome2.jpg)
 
@@ -191,4 +230,11 @@ All pages passed with no errors. Here are the results below.
 * ![screenshot](documentation/validation/gall2%20(1).jpg)
 
 * ![screenshot](documentation/validation/book.jpg)
+
+---
+
+## Lighthouse
+- I generated a lighthouse report for both mobile and desktop devices, through Chrome dev tools. For the desktop version the performance scores for
+
+![screenshot](documentation/validation/lthome.png)
 
