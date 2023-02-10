@@ -22,6 +22,11 @@ body > footer {
     top: 100vh;
 }
 
+a {
+    color: #ffdd00;
+    text-decoration: none;
+}
+
 /* headings and logo */
 
 header {
@@ -110,7 +115,7 @@ h2 {
     padding-left: 10px;
     background-color: rgba(62, 62, 55, 0.7);
     bottom: 100px;
-    right: 150px;
+    left: 50px;
     position: absolute;
 }
 
@@ -162,12 +167,15 @@ h2 {
 /* times and service prices */
 
 #times {
-    padding: 3em 0;
     background: url('../images/times.jpg') no-repeat center center;
     background-size: cover;
     text-align: center;
-    
-    
+}
+
+#times-overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 3em 0;
+    margin: 0;
 }
 
 
@@ -331,17 +339,61 @@ footer p {
     
 }
 
-.input:hover {
-    background-color: #ffeb66;
-}
+
 
 #form p {
     margin-top: 20px;
 }
 
-.buttons {
-    border-style: none;
-    padding: 10px;
+fieldset {
+    padding: 1em;
+    border-color: #ffdd00;
+    border-radius: 8px;
+}
+
+fieldset legend {
+    background-color: #ffdd00;
+    color: black;
+    padding: 0 10px;
+    border-radius: 8px;
+}
+
+fieldset input {
+    height: 23px;
+}
+
+fieldset input:not(input[type=radio]),
+fieldset textarea {
+    margin: 0.5em auto;
+    color: white;
+    width: 100%;
+    margin-bottom: 1em;
+}
+
+fieldset input::placeholder,
+fieldset input[type=date]:invalid::-webkit-datetime-edit,
+fieldset textarea::placeholder {
+    color: white;
+}
+
+.input:hover {
+    background-color: #ffeb66;
+}
+
+fieldset input:hover::placeholder,
+fieldset input[type=date]:hover:invalid::-webkit-datetime-edit,
+fieldset textarea:hover::placeholder {
+    color: black;
+}
+
+
+fieldset label {
+    vertical-align: top;
+    margin-top: 10px;
+}
+
+fieldset input[type=radio] {
+    margin-left: 1em;
 }
 
 
@@ -355,7 +407,7 @@ footer p {
     font-family: 'Rubik', sans-serif;
     border-radius: 10px;
     font-weight: bold;
-    
+    padding: 0.5em;
     
 }
 
@@ -376,6 +428,11 @@ footer p {
 
     #navigation li {
         margin: 2em 1em;
+    }
+
+    #cover-text {
+        left: unset;
+        right: 150px;
     }
 
     #about-img {
@@ -412,6 +469,8 @@ footer p {
 
     #times, #prices {
         width: 50%;
+        padding: 0;
+        margin: 0;
     }
 
     #gallery {
