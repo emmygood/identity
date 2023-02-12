@@ -376,9 +376,6 @@ fieldset textarea::placeholder {
     color: white;
 }
 
-.input:hover {
-    background-color: #ffeb66;
-}
 
 fieldset input:hover::placeholder,
 fieldset input[type=date]:hover:invalid::-webkit-datetime-edit,

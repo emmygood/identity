@@ -137,9 +137,12 @@ I used [coolors.co](https://coolors.co/292924-3e3e37-ffdd00-ffeb66) to generate 
 ![screenshot](documentation/bookform.png)
 
 ### Confirmation page
+- Once the user has filled in the booking form they will be redirected to a confirmation page, so they know their booking was a success.
+- This has the same stylings of the booking page, to keep things streamlined.
+- A font awesome icon is used here.
+- After 10 seconds, they will then be redirected back to the homepage.
 
-
-
+![screenshot](documentation/confirm.png)
 
 ### Future Features
 - New feature #1
@@ -188,7 +191,9 @@ I am aware of this warning, however this gallery section of this page does not n
 
 ![screenshot](documentation/validation/bookw3c.png)
 
+* Confirmation - Pass: No Errors [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Femmygood.github.io%2Fidentity%2Fconfirmation) - link here
 
+![screenshot](documentation/validation/w3cconfirm.png)
 
 ### CSS
 ---
@@ -221,8 +226,7 @@ All pages passed with no errors. Here are the results below. [Link to all pages]
 
 
 
-  - Booking - [Wave-link](https://wave.webaim.org/report#/https://emmygood.github.io/identity/booking.html)
-  For this page one of the alerts suggested the radio buttons were not in a fieldset element, so I then added that in.
+  - Booking - [Wave-link](https://wave.webaim.org/report#/https://emmygood.github.io/identity/booking.html) 
 
   ![screenshot](documentation/validation/wavebook.png)
 
