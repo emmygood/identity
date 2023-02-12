@@ -1,6 +1,6 @@
 # Identity
 
-![screenshot](documentation/mockup.png) 
+![screenshot](documentation/mockup2.png) 
 [Live webpage](https://emmygood.github.io/identity/)
 
 ## Introduction
@@ -60,11 +60,11 @@ I used [coolors.co](https://coolors.co/292924-3e3e37-ffdd00-ffeb66) to generate 
 
 [GoogleFonts.com](https://fonts.google.com/?query=com) was imported to select all the fonts. With sans-serif as a fallback for both 'Comfortaa' and 'Rubik'. These two fonts are similar but pair together nicely. I wanted to opt for something simple and easy to read, for accessibility, but also choose something a little bit 'different'.
 
-- [Comfortaa] (https://fonts.google.com/specimen/Comfortaa?query=com) Was used for the primary headers and titles.
+- [Comfortaa](https://fonts.google.com/specimen/Comfortaa?query=com) was used for the primary headers and titles.
 
-- [Rubik] (https://fonts.google.com/specimen/Rubik?query=rubik) Was used for all the secondary text.
+- [Rubik](https://fonts.google.com/specimen/Rubik?query=rubik) was used for all the secondary text.
 
-- [Font Awesome] (https://fontawesome.com) Was used throughout the site such as the logo, address pin, booking form, phone number, and social media icons in the footer.
+- [Font Awesome](https://fontawesome.com) was used throughout the site such as the logo, address pin, booking form, phone number, and social media icons in the footer.
 
 ## Features
 
@@ -83,14 +83,14 @@ I used [coolors.co](https://coolors.co/292924-3e3e37-ffdd00-ffeb66) to generate 
 ### Hero Image
 - The hero image is only visible on the homepage. The image is in black and white so it doesn't distract from the text.
 - Because the image is not in color, the hair itself is what creates a dramatic feature; which is the goal.
-- It contains a cover text overlayed in a transparent box which gives a brief summary to the user what the site is about.
+- It contains a cover text overlayed in a transparent box which gives a brief summary to the user what the site is about. This box is on the right when shown on desktops but becomes responsive when shown on smaller screens.
 
 ![screenshot](documentation/heroimg.png)
 
 ### Footer 
 - The footer is a common feature which is visible on all pages. It contains three social media clickable icons, which provide visible cues to prompt the user to click on the social media platforms related to Identity.
 - These links are kept out of the way of the main features on the site, but remain in the same spot on all three pages, which gives the user easier access to find them.
-- The lower part of the footer contains the copywrite information.
+- The lower part of the footer contains the copywrite information, which when clicked takes you through to my github profile.
 
 ![screenshot](documentation/footer2.png)
 
@@ -104,10 +104,11 @@ I used [coolors.co](https://coolors.co/292924-3e3e37-ffdd00-ffeb66) to generate 
 
 ### Opening times and service prices
 - This section is split into two halves; on the left you have the opening times, and on the right you have the service prices.
-- By using a background image behind opening times, this helps to create a divide between the two sections.
+- By using a background image behind opening times, this helps to create a divide between the two sections. 
+- I have also added a transparent layer over the image so the text is more readable.
 - These are shown on the homepage in order for the user to have immediate access to what the salon offers.
 
-![screenshot](documentation/openingprices.png)
+![screenshot](documentation/opening.png)
 
 ### Address and Google Map
 - This contains the salon address, with the Google Maps location underneath.
@@ -130,9 +131,15 @@ I used [coolors.co](https://coolors.co/292924-3e3e37-ffdd00-ffeb66) to generate 
 - Each input box highlights a different color - #FFEB66; to indicate what box they are clicking on.
 - The user is asked for their: name, phone number, email address, date and what service.
 - There are two radio buttons asking if they've been their before.
+- When the user has completed the form they will taken to a confirmation page.
 
-![screenshot](documentation/booking.png)
-![screenshot](documentation/booking2.png)
+![screenshot](documentation/bookin.png)
+![screenshot](documentation/bookform.png)
+
+### Confirmation page
+
+
+
 
 ### Future Features
 - New feature #1
@@ -177,9 +184,9 @@ I am aware of this warning, however this gallery section of this page does not n
 
 ![screenshot](documentation/validation/gallerytest.png)
 ---
-* Booking - Pass: No Errors  [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Femmygood.github.io%2Fidentity%2Fbooking.html) - link here
+* Booking - Pass: No Errors  [W3C](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Femmygood.github.io%2Fidentity%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en) - link here
 
-![screenshot](documentation/validation/bookingtest.png)
+![screenshot](documentation/validation/bookw3c.png)
 
 
 
@@ -214,10 +221,10 @@ All pages passed with no errors. Here are the results below. [Link to all pages]
 
 
 
-  - Booking - [Wave-link](https://wave.webaim.org/report#/https://emmygood.github.io/identity/booking.html) 
+  - Booking - [Wave-link](https://wave.webaim.org/report#/https://emmygood.github.io/identity/booking.html)
   For this page one of the alerts suggested the radio buttons were not in a fieldset element, so I then added that in.
 
-  ![screenshot](documentation/validation/wave3.png)
+  ![screenshot](documentation/validation/wavebook.png)
 
 ---
 

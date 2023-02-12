@@ -416,6 +416,13 @@ fieldset input[type=radio] {
     
 }
 
+/* confirmation page */
+
+.check {
+    text-align: center;
+    font-size: 2vw;
+    
+}
 
 
 /* media queries */
