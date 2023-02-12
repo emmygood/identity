@@ -230,9 +230,9 @@ All pages passed with no errors. Here are the results below. [Link to all pages]
 
   ![screenshot](documentation/validation/wavebook.png)
 
- - Confirmation - [Wave-link](https://wave.webaim.org/report#/https://emmygood.github.io/identity/confirmation) - This alerts me to one error, however the error is that the page refreshes back to the homepage. I have left this as it is because that is the effect that I wanted.
+  - Confirmation - [Wave-link](https://wave.webaim.org/report#/https://emmygood.github.io/identity/confirmation) - This alerts me to one error, however the error is that the page refreshes back to the homepage. I have left this as it is because that is the effect that I wanted.
 
- ![screenshot](documentation/validation/waveconfirm.png)
+  ![screenshot](documentation/validation/waveconfirm.png)
 
 ---
 
@@ -295,3 +295,7 @@ You can fork this repository by using the following steps:
 1. Log in to GitHub and locate the [GitHub Repository](https://github.com/emmygood/identity)
 2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
 3. Once clicked, you should now have a copy of the original repository in your own GitHub account!
+
+---
+
+## Credits
