@@ -128,7 +128,7 @@ I used [coolors.co](https://coolors.co/292924-3e3e37-ffdd00-ffeb66) to generate 
 ### Booking form
 - The booking page provides a phone number as alternative contact.
 - The booking form asks users to follow easy to understand steps.
-- Each input box highlights a different color - #FFEB66; to indicate what box they are clicking on.
+- Each input box text goes from black to white when the user hovers over each input field.
 - The user is asked for their: name, phone number, email address, date and what service.
 - There are two radio buttons asking if they've been their before.
 - When the user has completed the form they will taken to a confirmation page.
@@ -212,7 +212,7 @@ Pass: No Errors [W3C](https://jigsaw.w3.org/css-validator/validator?uri=https%3A
 
 
 - I have used the Wave Web Accessibility Evaluation Tool to make sure the site is accessible for all. 
-All pages passed with no errors. Here are the results below. [Link to all pages](https://wave.webaim.org/report#/https://emmygood.github.io/identity/index.html)
+All pages passed with no errors. Here are the results below. [Link to all pages](https://wave.webaim.org/report#/https://emmygood.github.io/identity/)
 
   - Home page - [Wave-link](https://wave.webaim.org/report#/https://emmygood.github.io/identity/index.html)
 
@@ -230,10 +230,14 @@ All pages passed with no errors. Here are the results below. [Link to all pages]
 
   ![screenshot](documentation/validation/wavebook.png)
 
+ - Confirmation - [Wave-link](https://wave.webaim.org/report#/https://emmygood.github.io/identity/confirmation) - This alerts me to one error, however the error is that the page refreshes back to the homepage. I have left this as it is because that is the effect that I wanted.
+
+ ![screenshot](documentation/validation/waveconfirm.png)
+
 ---
 
-
-- I tested the site on my smartphone (Samsung) and was very pleased all the features responded well to the smaller screen size. As a user I was able to easily click through all the pages and fill out the booking form with no problems. Here are the screenshots below. 
+### Compatability
+- I tested the site on my smartphone (Samsung) and was very pleased all the features responded well to the smaller screen size. As a user I was able to easily click through all the pages and fill out the booking form with no problems. It was also tested on different models of I-Phone and tablets. Here are the screenshots below. 
 
 * ![screenshot](documentation/validation/phonehome2.jpg)
 
@@ -245,7 +249,49 @@ All pages passed with no errors. Here are the results below. [Link to all pages]
 ---
 
 ## Lighthouse
-- I generated a lighthouse report for both mobile and desktop devices, through Chrome dev tools. For the desktop version the performance scores for
+- I generated a lighthouse reports for each page, for both mobile and desktop devices, through Chrome dev tools. Here are the results below for HOME - GALLERY - BOOKING - CONFIRMATION.
 
 ![screenshot](documentation/validation/lthome.png)
 
+![screenshot](documentation/validation/lthousegal.png)
+
+
+---
+
+## Deployment
+The site was deployed to GitHub Pages. The steps to deploy are as follows:
+- In the [GitHub repository](https://github.com/emmygood/identity), navigate to the Settings tab
+- Select the pages link, on the left hand side.
+- From the source section drop-down menu, select the **Main** Branch, then click "Save".
+- The page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+
+The live link can be found [here](https://emmygood.github.io/identity)
+
+### Local Deployment
+This project can be cloned or forked in order to make a local copy on your own system.
+
+#### Cloning
+You can clone the repository by following these steps:
+
+1. Go to the [GitHub repository](https://github.com/emmygood/identity) 
+2. Locate the Code button above the list of files and click it 
+3. Select if you prefer to clone using HTTPS, SSH, or GitHub CLI and click the copy button to copy the URL to your clipboard
+4. Open Git Bash or Terminal
+5. Change the current working directory to the one where you want the cloned directory
+6. In your IDE Terminal, type the following command to clone my repository:
+	- `git clone https://github.com/emmygood/identity.git`
+7. Press Enter to create your local clone.
+
+
+- Alternatively, if using Gitpod, you can click below to create your own workspace using this repository.
+
+  [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/emmygood/identity)
+
+- Please note that in order to directly open the project in Gitpod, you need to have the browser extension installed.
+
+#### Forking
+You can fork this repository by using the following steps:
+
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/emmygood/identity)
+2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
+3. Once clicked, you should now have a copy of the original repository in your own GitHub account!
