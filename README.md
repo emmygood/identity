@@ -8,7 +8,54 @@
 Identity is a site about a London hair salon that caters to an LGBTQ+ audience. The site offers a friendly welcome to those who wish to be their authentic true selves in a safe and friendly environment without intimidation; which to most is paramount. The site showcases the styles it offers as well as the ease of choosing what service they which to receive, and easy to follow booking system. 
 
 ---
+## Table of content
+* [User Experience](##user-experience)
 
+* [UX](##ux)
+   * [Color Palette](###color-palette)
+   * [Typography](###typography)
+
+* [Features](##features)
+  * [Common Features](###common-features)
+    * [Navigation Bar](####navigation-bar)
+    * [Hero Image](####hero-image)
+    * [Footer](####footer)
+    * [Salon Ethos](####salon-ethos-feature)
+    * [Opening times and Service prices](####opening-times-and-service-prices)
+    * [Address and Google maps](####address-and-google-maps)
+    * [Gallery](####gallery)
+    * [Booking Form](####booking-form)
+    * [Confirmation Page](####confirmation-page)
+    * [Future Features](###future-features)
+
+* [Tools and Technologies](##tools-and-technologies)
+
+* [Testing](#testing)
+   * [HTML Validator](##html-validating)
+   * [CSS Validator](##css)
+
+* [Responsiveness](##responsiveness)
+  * [Compatability](##compatability)
+  * [Lighthouse](##lighthouse)
+
+* [Deployment](##deployment)
+  * [Local Deployment](###local-deployment)
+  * [Cloning](###cloning)
+  * [Forking](####forking)
+
+* [Credits](##credits)
+  * [Content](###content)
+  * [Media](###media)
+  * [Acknowledgements](###acknowledgements)  
+
+
+
+
+
+
+
+
+---
 ## User Experience
 
 ### Audience 
@@ -49,6 +96,7 @@ Identity is a site about a London hair salon that caters to an LGBTQ+ audience. 
 
 
 Identity is a site created for inclusion. Therefore I have taken inspiration using certain colors from the non-binary flag; yellow and black. Representing gender without reference to the binary and lack of gender. I then chose yellow to be the main color of the text throughout the body, contrasting to the dark grey, as it's associated with happiness and hope.
+The yellow contrasts against the dark grey nicely, making it easily readable.
 I used [coolors.co](https://coolors.co/292924-3e3e37-ffdd00-ffeb66) to generate my color palette.
 
 ![screenshot](documentation/colorscheme.png)
@@ -170,7 +218,7 @@ I used [coolors.co](https://coolors.co/292924-3e3e37-ffdd00-ffeb66) to generate 
 # Testing 
 I have tested the website on a variety of different browsers (Chrome, Firefox, Safari) and screen sizes (laptop, desktop, smartphones). As well as testing the site with development tools, whilst building, to ensure the responsiveness across different screen sizes.
 
-### HTML Validation
+## HTML Validation
 
 - I have used the recommended [HTML W3C Validator](https://validator.w3.org) to validate all of my HTML files.
 
@@ -195,7 +243,7 @@ I am aware of this warning, however this gallery section of this page does not n
 
 ![screenshot](documentation/validation/w3cconfirm.png)
 
-### CSS
+## CSS
 ---
 
 - I have used the recommended [CSS Jigsaw Validator](https://jigsaw.w3.org/css-validator) to validate all of my CSS files.
@@ -236,7 +284,7 @@ All pages passed with no errors. Here are the results below. [Link to all pages]
 
 ---
 
-### Compatability
+## Compatability
 - I tested the site on my smartphone (Samsung) and was very pleased all the features responded well to the smaller screen size. As a user I was able to easily click through all the pages and fill out the booking form with no problems. It was also tested on different models of I-Phone and tablets. Here are the screenshots below. 
 
 ![screenshot](documentation/validation/samsunghome.jpg)
