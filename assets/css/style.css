@@ -102,7 +102,7 @@ h2 {
 #hero-image {
     height: 500px;
     max-width: 100%;
-    background: url('../images/hero-im.jpg') no-repeat center center;
+    background: url('../images/hero-imweb.jpeg') no-repeat center center;
     background-size: cover;
 }
 
@@ -167,7 +167,7 @@ h2 {
 /* times and service prices */
 
 #times {
-    background: url('../images/times.jpg') no-repeat center center;
+    background: url('../images/timesweb.jpeg') no-repeat center center;
     background-size: cover;
     text-align: center;
 }
@@ -300,7 +300,7 @@ footer p {
 
 #booking {
     clear: both;
-    background: url('../images/booking.jpg') no-repeat center;
+    background: url('../images/bookingweb.jpeg') no-repeat center;
     background-size: cover;
 }
 
