@@ -8,54 +8,7 @@
 Identity is a site about a London hair salon that caters to an LGBTQ+ audience. The site offers a friendly welcome to those who wish to be their authentic true selves in a safe and friendly environment without intimidation; which to most is paramount. The site showcases the styles it offers as well as the ease of choosing what service they which to receive, and easy to follow booking system. 
 
 ---
-## Table of content
-* [User Experience](#user-experience)
-
-* [UX](#ux)
-   * [Color Palette](#color-palette)
-   * [Typography](#typography)
-
-* [Features](#features)
-  * [Common Features](#common-features)
-    * [Navigation Bar](#navigation-bar)
-    * [Hero Image](#hero-image)
-    * [Footer](#footer)
-    * [Salon Ethos](#salon-ethos-feature)
-    * [Opening times and Service prices](#opening-times-and-service-prices)
-    * [Address and Google maps](#address-and-google-maps)
-    * [Gallery](#gallery)
-    * [Booking Form](#booking-form)
-    * [Confirmation Page](#confirmation-page)
-    * [Future Features](#future-features)
-
-* [Tools and Technologies](#tools-and-technologies)
-
-* [Testing](#testing)
-   * [HTML Validator](#html-validating)
-   * [CSS Validator](#css)
-
-* [Responsiveness](#responsiveness)
-  * [Compatability](#compatability)
-  * [Lighthouse](#lighthouse)
-
-* [Deployment](#deployment)
-  * [Local Deployment](#local-deployment)
-  * [Cloning](#cloning)
-  * [Forking](#forking)
-
-* [Credits](#credits)
-  * [Content](#content)
-  * [Media](#media)
-  * [Acknowledgements](#acknowledgements)  
-
-
-
-
-
-
-
-
----
+ 
 ## User Experience
 
 ### Audience 
@@ -235,7 +188,7 @@ I am aware of this warning, however this gallery section of this page does not n
 
 ![screenshot](documentation/validation/gallerytest.png)
 ---
-* Booking - Pass: No Errors  [W3C](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Femmygood.github.io%2Fidentity%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en) - link here
+* Booking - Pass: No Errors  [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Femmygood.github.io%2Fidentity%2Fbooking.html) - link here
 
 ![screenshot](documentation/validation/bookw3c.png)
 
