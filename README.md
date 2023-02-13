@@ -321,7 +321,7 @@ You can fork this repository by using the following steps:
 - [Convertio](https://convertio.co/jpg-jpeg/) entire site images.
 
 ### Acknowledgements
-- I would like to thank my Code Institute mentor [Tim]  for their support throughout the development of this project.
+- I would like to thank my Code Institute mentor [Tim Nelson](https://github.com/TravelTimN)  for their support throughout the development of this project.
 - I would like to thank [Code Institute](https://codeinstitute.net) for their learning resources.
 - I would like to thank the [Code Institute Slack community](https://code-institute-room.slack.com) for the moral support.
 - I would like to thank myself for the hard work.
