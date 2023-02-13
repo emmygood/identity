@@ -64,7 +64,7 @@ I used [coolors.co](https://coolors.co/292924-3e3e37-ffdd00-ffeb66) to generate 
 
 - [Rubik](https://fonts.google.com/specimen/Rubik?query=rubik) was used for all the secondary text.
 
-- [Font Awesome](https://fontawesome.com) was used throughout the site such as the logo, address pin, booking form, phone number, and social media icons in the footer.
+- [Font Awesome](https://fontawesome.com) was used throughout the site such as the logo, address pin, booking form, phone number, confirmation page, and social media icons in the footer.
 
 ## Features
 
@@ -239,21 +239,27 @@ All pages passed with no errors. Here are the results below. [Link to all pages]
 ### Compatability
 - I tested the site on my smartphone (Samsung) and was very pleased all the features responded well to the smaller screen size. As a user I was able to easily click through all the pages and fill out the booking form with no problems. It was also tested on different models of I-Phone and tablets. Here are the screenshots below. 
 
-* ![screenshot](documentation/validation/phonehome2.jpg)
+![screenshot](documentation/validation/samsunghome.jpg)
 
-* ![screenshot](documentation/validation/gall1.jpg)
-* ![screenshot](documentation/validation/gall2%20(1).jpg)
+![screenshot](documentation/validation/gall1.jpg)
+![screenshot](documentation/validation/gall2%20(1).jpg)
 
-* ![screenshot](documentation/validation/book.jpg)
+![screenshot](documentation/validation/samsubook.jpg)
+
+![screenshot](documentation/validation/samscon.jpg)
 
 ---
 
 ## Lighthouse
-- I generated a lighthouse reports for each page, for both mobile and desktop devices, through Chrome dev tools. Here are the results below for HOME - GALLERY - BOOKING - CONFIRMATION.
+- I generated a lighthouse reports for each page, for both mobile and desktop devices, through Chrome dev tools. Here are the results below for HOME - GALLERY - BOOKING - CONFIRMATION. For the booking and confirmation pages the scores were a little lower because of the image file sizes, so I used [Convertio](https://convertio.co/jpg-jpeg/) to make the image files smaller and this helped improve the overall performance score.
 
 ![screenshot](documentation/validation/lthome.png)
 
 ![screenshot](documentation/validation/lthousegal.png)
+
+![screenshot](documentation/validation/lthousebk.png)
+
+![screenshot](documentation/validation/lthousecon.png)
 
 
 ---
@@ -299,3 +305,23 @@ You can fork this repository by using the following steps:
 ---
 
 ## Credits
+
+
+### Content
+- The text on all pages was created by myself.
+- [Markdown Builder by Tim Nelson](https://traveltimn.github.io/markdown-builder) README and TESTING tool to help generate the Markdown file.
+- [W3Schools](https://www.w3schools.com/howto/howto_js_topnav_responsive.asp) entire site, responsive HTML/CSS/JS navbar.
+- Reference material was used from [W3Schools](https://www.w3schools.com/) for flexbox, color converting, and general reference aid.
+- [Flexbox Froggy](https://flexboxfroggy.com/) entire site, modern responsive layouts.
+- [YouTube](https://www.youtube.com/watch?v=fYq5PXgSsbE&ab_channel=WebDevSimplified) entire site, flexbox tutorial. 
+
+### Media
+- The icons I used were taken from [Font Awesome](https://fontawesome.com).
+- the images used throughtout the site are taken from [Pexels](https://www.pexels.com/).
+- [Convertio](https://convertio.co/jpg-jpeg/) entire site images.
+
+### Acknowledgements
+- I would like to thank my Code Institute mentor [Tim]  for their support throughout the development of this project.
+- I would like to thank [Code Institute](https://codeinstitute.net) for their learning resources.
+- I would like to thank the [Code Institute Slack community](https://code-institute-room.slack.com) for the moral support.
+- I would like to thank myself for the hard work.
